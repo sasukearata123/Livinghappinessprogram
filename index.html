@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art of Living Happiness Program for Youth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2c5f2d;
+            --secondary: #97bc62;
+            --accent: #ff6b6b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background: var(--primary);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(44,95,45,0.8), rgba(151,188,98,0.8)),
+                        url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .facilitators {
+            background: #f9f9f9;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 1rem auto;
+        }
+
+        .countdown {
+            background: var(--secondary);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .registration-cta {
+            background: var(--accent);
+            color: white;
+            text-align: center;
+            padding: 3rem 2rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: white;
+            color: var(--primary);
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#facilitators">Facilitators</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Art of Living Happiness Program for Youth</h1>
+            <div class="countdown">
+                <!-- Countdown timer JavaScript would go here -->
+            </div>
+            <a href="aolt.in/849443" class="button">Register Now</a>
+        </div>
+    </section>
+
+    <section id="benefits" class="section">
+        <div class="grid-container">
+            <!-- Benefit cards with icons -->
+        </div>
+    </section>
+
+    <section id="facilitators" class="section facilitators">
+        <div class="grid-container">
+            <div class="profile card">
+                <img src="profile-placeholder.jpg" alt="Tanuj Narain" class="profile-img">
+                <h3>Tanuj Narain</h3>
+                <p>B.Tech., IIT Kanpur</p>
+            </div>
+            <div class="profile card">
+                <img src="profile-placeholder.jpg" alt="Dikshak Mittal" class="profile-img">
+                <h3>Dikshak Mittal</h3>
+                <p>Asst. Prof., IIM Lucknow</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section">
+        <!-- Schedule timeline -->
+    </section>
+
+    <section class="registration-cta">
+        <h2>Transform Your Life in 5 Days!</h2>
+        <p>Limited Seats Available - ₹1500 Only</p>
+        <a href="aolt.in/849443" class="button">Secure Your Spot Now</a>
+    </section>
+
+    <!-- Additional sections for venue map, contact info, etc -->
+
+    <script>
+        // JavaScript for countdown timer and interactive elements
+    </script>
+</body>
+</html>
